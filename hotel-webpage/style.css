@@ -1,10 +1,16 @@
+.top-box{
+    position:sticky;
+    top:0px;
+    background-color: white;
+}
+
 .first-box{
-    width:1200px;
-    margin:30px 50px;
+    padding: auto auto;
+    margin:5px 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 0px;
+    
 }
 
 .fb-item-center{
@@ -35,16 +41,16 @@
 
 
 .mb{
-    width: 1200px;
+  
     margin: 30px 50px;
     display: flex;
     justify-content: space-between;
-    position: sticky;
-    top:20px;
-    
+    font-size: small;
+    background-color: white;
+    align-items:start;
 }
 .mb img{
-    width: 30px;
+    width: 20px;
     top:10px;
 }
 .mb-item{
@@ -65,19 +71,14 @@
     border-bottom: 2px solid lightgrey;
 }
 
-.price-box{
-    border: 10px solid lightgrey;
-    margin:100px auto;
-    border-radius: 15px;
 
-}
 
 .container{
-    width: 1200px;
+    
     margin: 30px 50px;
     display: flex;
     justify-content:center;
-    gap:20px;
+    gap:70px;
     flex-wrap: wrap
     
 }
@@ -95,6 +96,8 @@
     padding: 10px;
     border-radius: 16px;
     border: 1px solid white;
+    
+    
 }
 .hotel-card-flex{
     margin-bottom: 0px;
@@ -111,5 +114,44 @@
     margin-top: 6px;
     font-size: 13px;
     color: gray;
+}
+.btn{
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 15px;
+    gap: 10px;
+    margin-top: 0px;
+}
+
+.pricebox{
+    border:1px solid lightgray;
+    border-radius: 16px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px 400px;
+    padding: 0px 15px;
+
+}
+
+.map{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    padding: 2px 15px;
+    font-size: smaller;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto auto;
+    position: sticky;
+    bottom: 15%;
 }
 
